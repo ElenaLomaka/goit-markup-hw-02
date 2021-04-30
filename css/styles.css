@@ -1,0 +1,46 @@
+/*основной цвет текста #757575 серый
+вторичный цвет текста #212121 черный 
+в футере телефон и почта rgba(255, 255, 255, 0.6);
+логотип studio #000000
+#FFFFFF белый
+акцент #2196F3 синий
+цвет фона #E5E5E5
+цвет фона вторичный #F5F4FA 
+*/
+
+body {
+  color: #757575;
+  background-color: #ffffff;
+}
+.logo {
+  color: #2196f3;
+}
+.logo-two {
+  color: #000000;
+}
+.list {
+  list-style: none;
+}
+
+/*Site nav*/
+.site-nav,
+.site-nav-item {
+  color: #212121;
+}
+
+.site-nav-item:hover,
+.site-nav-item:focus,
+.contact-item:hover,
+.contact-item:focus {
+  color: #2196f3;
+}
+.contact-item {
+  color: #757575;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+.hero-heading {
+  color: #ffffff;
+}
