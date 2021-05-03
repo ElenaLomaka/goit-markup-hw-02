@@ -17,7 +17,7 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
-  font-family: Roboto, Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 .spacing {
@@ -51,8 +51,9 @@ body {
 .site-nav-item:hover,
 .site-nav-item:focus,
 .contact-item:hover,
-.contact-item:focus {
-  color: #2196f3;
+.contact-item:focus,
+.site-nav-item.current {
+  color: var(--accent-color);
 }
 
 .contact-item {
@@ -65,25 +66,24 @@ body {
 /*Hero*/
 .hero {
   background-color: #2f303a;
-  letter-spacing: 0.06em;
+  text-align: center;
 }
 .hero-heading {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 .button {
   background-color: var(--accent-color);
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
+  font-family: inherit;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 
@@ -148,6 +148,9 @@ footer {
 .contacts:focus {
   color: #2196f3;
 }
+.logo-footer {
+  color: #ffffff;
+}
 
 /*Portfolio*/
 .button-primary {
@@ -158,6 +161,7 @@ footer {
   line-height: 1.63;
   text-align: center;
   cursor: pointer;
+  font-family: inherit;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -174,4 +178,9 @@ footer {
 .item {
   font-size: 16px;
   line-height: 30px;
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.88;
 }
